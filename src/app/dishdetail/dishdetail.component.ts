@@ -52,6 +52,7 @@ const DISH = {
 export class DishdetailComponent implements OnInit {
 
   dish = DISH;
+  selectedDish = DISH;
 
   constructor() { }
 
@@ -59,3 +60,4 @@ export class DishdetailComponent implements OnInit {
   }
 
 }
+
